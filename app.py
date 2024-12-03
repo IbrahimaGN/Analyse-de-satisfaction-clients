@@ -82,7 +82,7 @@ def preprocess_text(text):
 if menu == "Aperçu des données":
     st.header("📄 Aperçu des Données")
     st.write("Voici un aperçu des données chargées :")
-    st.dataframe(df.head())
+    st.dataframe(df.head(20))
 
 # Si Analyse des mots fréquents
 elif menu == "Analyse des mots fréquents":
